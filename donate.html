@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donate / Support Us | Nsu Nkwa Foundation</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="utility-bar">
+  <div class="container">
+    <span>Site developed by Ambrose Adu Gyetuah &nbsp;|&nbsp; Index No: BC/ITS/25/140</span>
+    <span><a href="mailto:info@nsunkwa.org">info@nsunkwa.org</a> &nbsp;|&nbsp; +233 24 555 0192</span>
+  </div>
+</div>
+
+<header>
+  <div class="container">
+    <nav class="mainnav">
+      <a href="index.html" class="brand">
+        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="21" cy="21" r="21" fill="#2f6e5c"/>
+          <path d="M21 8c-5 7-8.5 11.6-8.5 16A8.5 8.5 0 0 0 21 32.5 8.5 8.5 0 0 0 29.5 24C29.5 19.6 26 15 21 8Z" fill="#e3a73e"/>
+        </svg>
+        <span class="brand-text">
+          <strong>Nsu Nkwa Foundation</strong>
+          <span>Water is Life</span>
+        </span>
+      </a>
+      <button class="menu-toggle" onclick="document.querySelector('.navlinks').classList.toggle('open')" aria-label="Toggle navigation">☰</button>
+      <ul class="navlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donate.html" class="nav-cta active">Donate</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- ================= DONATE ================= -->
+<section id="donate" class="section-alt">
+  <div class="container">
+    <span class="eyebrow">Support us</span>
+    <h2>Your donation, in real impact</h2>
+    <div class="donate-hero">
+      <h2>Why your support matters</h2>
+      <p>A single borehole costs less than the price of the trucked water a community would otherwise buy over three years &mdash; and it lasts for decades. Every donation goes directly toward drilling, sanitation construction, and the training that keeps these systems running long after we leave.</p>
+      <ul class="impact-list">
+        <li>GHS 50 provides hygiene education materials for one classroom</li>
+        <li>GHS 200 supplies handwashing stations for a school block</li>
+        <li>GHS 500 funds handpump spare parts for a rural community</li>
+        <li>GHS 1,000+ contributes directly toward drilling a new borehole</li>
+      </ul>
+    </div>
+
+    <table>
+      <caption>Donation tiers and their impact</caption>
+      <thead>
+        <tr><th>Amount (GHS)</th><th>Impact</th><th>Suggested for</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>50</td><td>Hygiene education kit for one classroom</td><td>Individuals</td></tr>
+        <tr><td>200</td><td>Handwashing station for a school block</td><td>Families &amp; small groups</td></tr>
+        <tr><td>500</td><td>Spare parts &amp; tools for a Water Committee</td><td>Businesses</td></tr>
+        <tr><td>1,000+</td><td>Direct contribution to a new borehole</td><td>Corporate partners</td></tr>
+      </tbody>
+    </table>
+
+    <div class="form-wrap" style="margin-top:52px;">
+      <div>
+        <h3>Other ways to give</h3>
+        <p>Prefer bank transfer or mobile money? Contact our finance office directly at <a href="mailto:donate@nsunkwa.org">donate@nsunkwa.org</a> and we'll send you our donation details along with a receipt for your records.</p>
+        <p>Nsu Nkwa Foundation is a registered non-profit; all donations go toward active field programmes and are acknowledged in our annual impact report.</p>
+      </div>
+      <form action="#" method="post">
+        <div class="field">
+          <label for="d-name">Full Name</label>
+          <input type="text" id="d-name" name="full_name" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="d-email">Email Address</label>
+          <input type="email" id="d-email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="field">
+          <label for="d-amount">Donation Amount (GHS)</label>
+          <input type="number" id="d-amount" name="amount" min="10" placeholder="e.g. 200" required>
+        </div>
+        <div class="field">
+          <label for="d-method">Payment Method</label>
+          <select id="d-method" name="method" required>
+            <option value="">Select an option</option>
+            <option value="momo">Mobile Money</option>
+            <option value="bank">Bank Transfer</option>
+            <option value="card">Card Payment</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="d-message">Message <span class="hint">(optional)</span></label>
+          <textarea id="d-message" name="message" rows="3" placeholder="Dedicate your gift or leave us a note"></textarea>
+        </div>
+        <div class="submit-row">
+          <button type="submit" class="btn btn-primary">Donate Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Nsu Nkwa Foundation</h4>
+        <p>Bringing clean water and dignified sanitation to communities across coastal Ghana, one borehole at a time.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get Involved</h4>
+        <ul>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Plot 14, Beach Road, Sekondi-Takoradi</li>
+          <li>+233 24 555 0192</li>
+          <li>info@nsunkwa.org</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Nsu Nkwa Foundation. All rights reserved.</span>
+      <span>Website developed by Ambrose Adu Gyetuah &middot; BC/ITS/25/140 &middot; Takoradi Technical University</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
